@@ -11,7 +11,7 @@ namespace povtoreniya_n_
         static void Main(string[] args)
         {
             Console.WriteLine("Напишите количевство повторений (n):");
-            int a = Convert.ToInt32(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите сообщение для повторения:");
             string message = Console.ReadLine();
             for (int i = 0; i < n; i++)
